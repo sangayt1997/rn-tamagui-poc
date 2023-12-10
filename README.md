@@ -1,3 +1,9 @@
+# Brief Intro
+
+This repository serves as a Proof of Concept (POC) for integrating Tamagui with React Native. Given that many React Native mobile app developers encounter performance issues and maintainability difficulties with Native Base, the aim is to explore Tamagui as an alternative solution.
+
+Read More on [**Tamagui**](https://tamagui.dev/)
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
