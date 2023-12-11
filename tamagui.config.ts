@@ -16,6 +16,7 @@ const interFont = createFont({
     1: 12,
     2: 14,
     3: 15,
+    true: 15,
   },
 
   lineHeight: {
