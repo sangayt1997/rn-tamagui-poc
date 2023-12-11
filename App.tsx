@@ -7,7 +7,7 @@
 
 import React from 'react';
 import {SafeAreaView, ScrollView, StatusBar, Text} from 'react-native';
-import {Button, TamaguiProvider} from 'tamagui';
+import {Button, TamaguiProvider, View} from 'tamagui';
 import config from './tamagui.config';
 
 const App = () => {
@@ -23,8 +23,10 @@ const App = () => {
             backgroundColor="transparent"
             barStyle="dark-content"
           />
-          <Text>Testing with Tamagui</Text>
-          <Button>Hello world</Button>
+          <View style={{flexGrow: 1}}>
+            <Text>Testing with Tamagui</Text>
+            <Button>Hello world</Button>
+          </View>
         </TamaguiProvider>
       </ScrollView>
     </SafeAreaView>
